@@ -1,0 +1,28 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff8f0;
+  color: #333;
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+h1 {
+  color: #8B4513;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+.ingredientes, .preparo {
+  background-color: #f0e6da;
+  padding: 15px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+footer {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 0.9em;
+  color: #777;
+}
