@@ -26,3 +26,58 @@ footer {
   font-size: 0.9em;
   color: #777;
 }
+
+/* Mantém o estilo geral */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff8f0;
+  color: #333;
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Para telas menores que 600px */
+@media (max-width: 600px) {
+  body {
+    padding: 10px;
+    max-width: 100%;
+  }
+
+  h1 {
+    font-size: 1.5em;
+  }
+
+  .ingredientes, .preparo {
+    padding: 10px;
+  }
+
+  footer {
+    font-size: 0.8em;
+  }
+}
+
+h1 {
+  color: #8B4513;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.ingredientes, .preparo {
+  background-color: #f0e6da;
+  padding: 15px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+footer {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 0.9em;
+  color: #777;
+}
